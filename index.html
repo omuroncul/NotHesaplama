@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Not Hesaplama</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Öğrenci Not Hesaplama</h1>
+        <form id="student-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="İsim" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="surname" placeholder="Soyisim" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="number" placeholder="Öğrenci Numarası" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="vize" placeholder="Vize" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="final" placeholder="Final" required>
+            </div>
+            
+            <button type="submit" class="ekle">EKLE</button>
+        </form>
+        <div class="student-state">
+            <h3>Öğrenci Listesi</h3>
+            <div>
+                <i></i>
+                <span>AA</span>
+                <i></i>
+                <span>BB</span>
+                <i></i>
+                <span>CC</span>
+                <i></i>
+                <span>FF</span>
+            </div>
+        </div>
+
+        <div id="student-list">
+            <!-- <p class="empty"> Listenizde öğrenci bulunmamaktadır.</p> -->
+             <!-- <div class="student-item">
+                 <div class="student-item-info">
+                    <h3>İsim Soyisim  - Öğrenci No</h3>
+                    <span>Vize : Puan Final : Puan   </span>
+                    <p>Ortalama : Ortalama Puan</p>
+                </div>
+                <div class="student-item-process">
+                    <i class="fa-solid fa-pen-to-square edit-button"></i>
+                    <i class="fa-solid fa-trash delete-button"></i>
+                </div>
+            </div> 
+             <div class="student-item">
+                 <div class="student-item-info">
+                    <h3>İsim Soyisim  - Öğrenci No</h3>
+                    <span>Vize : Puan Final : Puan   </span>
+                    <p>Ortalama : Ortalama Puan</p>
+                </div>
+                <div class="student-item-process">
+                    <i class="fa-solid fa-pen-to-square edit-button"></i>
+                    <i class="fa-solid fa-trash delete-button"></i>
+                </div>
+            </div> 
+             <div class="student-item">
+                 <div class="student-item-info">
+                    <h3>İsim Soyisim  - Öğrenci No</h3>
+                    <span>Vize : Puan Final : Puan   </span>
+                    <p>Ortalama : Ortalama Puan</p>
+                </div>
+                <div class="student-item-process">
+                    <i class="fa-solid fa-pen-to-square edit-button"></i>
+                    <i class="fa-solid fa-trash delete-button"></i>
+                </div>
+            </div> 
+             <div class="student-item">
+                 <div class="student-item-info">
+                    <h3>İsim Soyisim  - Öğrenci No</h3>
+                    <span>Vize : Puan Final : Puan   </span>
+                    <p>Ortalama : Ortalama Puan</p>
+                </div>
+                <div class="student-item-process">
+                    <i class="fa-solid fa-pen-to-square edit-button"></i>
+                    <i class="fa-solid fa-trash delete-button"></i>
+                </div>
+            </div> 
+             -->
+
+        </div>
+           
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

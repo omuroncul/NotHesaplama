@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #8b61f2 47%, white 7.5%);
+  height: 100vh;
+}
+
+.container {
+  background-color: #151a30;
+  color: white;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 35px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.container form {
+  margin-bottom: 20px;
+}
+.container form .form-group {
+  margin-bottom: 10px;
+}
+.container form .form-group input[type=text],
+.container form .form-group input[type=number] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 3px solid rgba(150, 34, 142, 0.6549019608);
+  outline: none;
+  background: transparent;
+  color: white;
+}
+.container form .form-group input[type=text]::-moz-placeholder, .container form .form-group input[type=number]::-moz-placeholder {
+  color: rgba(128, 128, 128, 0.651);
+}
+.container form .form-group input[type=text]::placeholder,
+.container form .form-group input[type=number]::placeholder {
+  color: rgba(128, 128, 128, 0.651);
+}
+.container form button {
+  display: block;
+  padding: 7px 20px;
+  margin: auto;
+  background: linear-gradient(120deg, rgb(152, 56, 226), rgb(50, 12, 90));
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.container form button:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+.container #student-list {
+  border-radius: 10px;
+  padding: 10px;
+  height: 280px;
+  overflow-y: scroll;
+  border: 2px solid #652b60;
+}
+.container #student-list .student-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+}
+.container #student-list .student-item-info {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: start;
+}
+.container #student-list .student-item-process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  gap: 5px;
+}
+.container #student-list .student-item-process .delete-button {
+  background-color: white;
+  color: #dc3545;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.container #student-list .student-item-process .delete-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+.container #student-list .student-item-process .edit-button {
+  background-color: #ffc107;
+  color: black;
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.container #student-list .student-item-process .edit-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+.container #student-list .empty {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container .student-state {
+  display: flex;
+  border-top: 2px solid rgb(183, 165, 165);
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.container .student-state div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.container .student-state div i {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.container .student-state div i:nth-child(1) {
+  background-color: #15aefe;
+}
+.container .student-state div i:nth-child(3) {
+  background-color: #f47121;
+}
+.container .student-state div i:nth-child(5) {
+  background-color: #630eff;
+}
+.container .student-state div i:nth-child(7) {
+  background-color: #ff0fe4;
+}
+
+/* SCROOLBAR  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
