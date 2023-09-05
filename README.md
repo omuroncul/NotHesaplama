@@ -14,3 +14,4 @@ Delete ve Edit işlemleri kulllanıldı.
 
 <h3> Ekran Görüntüsü </h3>
 
+https://github.com/omuroncul/NotHesaplama/assets/129686552/efd57a0d-a6e3-4669-a09e-5c5a96c246ff
